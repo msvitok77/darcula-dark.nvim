@@ -28,6 +28,7 @@ local color = {
   bright_sky = "#73cef4",
   golden_yellow = "#ffc24b",
   light_olive_green = "#c9d05c",
+  lighter_olive_green = '#8d8f72',
   medium_gray = "#4c4c4c",
   light_brown = "#dc9656",
   silver_gray = "#b8b8b8",
@@ -584,7 +585,7 @@ M.configure_highlights = function()
   hi(0, "TSUnderline", { fg = color.dark, underline = true })
   hi(0, "TSVariable", { fg = color.grey })
   hi(0, "TSVariableBuiltin", { fg = color.burnt_orange, italic = true })
-  hi(0, "TabLine", { bg = color.background, ctermbg = 242, ctermfg = 15, fg = color.medium_gray })
+  hi(0, "TabLine", { bg = color.background, ctermbg = 242, ctermfg = 15, fg = lighter_olive_green })
   hi(0, "TabLineFill", { bg = color.background, fg = color.medium_gray })
   hi(0, "TabLineSel", { bg = color.background, fg = color.light_olive_green })
   hi(0, "Tag", { fg = color.golden_yellow })
